@@ -6,3 +6,5 @@ function changeBackgroundColor(color){
 document.getElementById('intro').addEventListener('click', () => changeBackgroundColor("#8ba7b2"));
 document.getElementById('react').addEventListener('click', () => changeBackgroundColor("#028da4"));
 document.getElementById('backend').addEventListener('click', () => changeBackgroundColor("#9467BD"));
+
+document.getElementById("year").textContent = new Date().getFullYear();
